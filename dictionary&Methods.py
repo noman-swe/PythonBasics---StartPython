@@ -24,3 +24,5 @@ print(marks.items())
 
 print(marks.get("Abdullah - Al Noman")) #if the responding value is not available then the result will  be None without showing Error;
 print(marks.get("Noman")) #if the responding value is available then the result will be the value of that key; #no error shows in the dictionary.
+
+## set and Dictionary uses curly brackets but sets has single value but Dictionary has a key and value like object

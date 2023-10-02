@@ -1,0 +1,33 @@
+ctrl+d =  : replicate the line;
+ctrl+/ = : # is the comment for single line comment
+and ''' content ''' is comments for too many lines;
+
+ctrl+W selects a section and by more pressing it, it selects more area.
+
+//if there is a floating result when you divide then this double forwardSlash will not show you the floating results
+#this double ** calculates num1 to the power num2
+
+
+
+##### Important Notes #######
+
+You have to use the same number of spaces in the same block of code, otherwise Python will give you an error. and this is called Indentation
+
+if 5 > 2:
+ print("Five is greater than two!")
+        print("Five is greater than two!")
+#this code will give error
+
+if 5 > 2:
+    print("Five is greater than two!")
+    print("Five is greater than two!")
+    #but this will not give any error
+
+------------
+First bracket is call parentheses
+Second bracket is call curly bracket
+Third bracket is call
+--------------
+
+##### Important Notes on Tuples/Set/Dictionary/List #######
+# set and Dictionary uses curly brackets but sets has single value but Dictionary has a key and value like object
