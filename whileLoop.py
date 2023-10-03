@@ -18,7 +18,6 @@ while(True):
         break # when the input value will be equal to 0 then this infinity loop will be break
 '''
 
-
 '''
 z = 0
 while z < 7:
@@ -27,25 +26,22 @@ while z < 7:
         break
     z += 1
 '''
-
-
-
 '''     break and continue
 Break: Break is a kind of  stopper
 Continue: Continue is kind of skip
 '''
-#Continue Practice
+# Continue Practice
 f = 1
 for f in range(5):
     if f == 3:
         continue
-    print(f+1)
+    print(f + 1)
 # in this case 4 is skipped while printing; because we set when f == 3 then the next will be skipped
 
-#Break Practice
+# Break Practice
 print("Break Practice")
 b = 1
 for b in range(10):
     if b == 5:
         break
-    print(b+1)
+    print(b + 1)
