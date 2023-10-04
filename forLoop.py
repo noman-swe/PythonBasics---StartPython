@@ -36,3 +36,7 @@ for dictKey, dictValues in dictAges.items():
     print("Name : {0}, Age: {1}".format(dictKey, dictValues))
 
 
+#loop in string
+hips = 'i go to school'
+for i in hips:
+    print(i)
