@@ -17,7 +17,6 @@ print(name.isalnum())
 print(number.isnumeric())  # tells the string is numeric or not and gives result in boolean
 print(name.isnumeric())  # tells the string is numeric or not and gives result in boolean
 
-
 '''Slicing String'''
 #  print the First character
 zem = "Hello"[0]
@@ -30,4 +29,11 @@ print(b[:5])
 #  Get the characters from position 2, and all the way to the end:
 print(b[2:])
 
+# The strip() method removes any whitespace from the beginning or the end:
+print(b.strip())  # returns "Hello, World!"
 
+#  The replace() method replaces a string with another string:
+print(b.replace("H", "J"))
+
+#  The split() method splits the string into substrings if it finds instances of the separator
+print(b.split(","))  # returns ['Hello', ' World!']
