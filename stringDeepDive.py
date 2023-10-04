@@ -17,5 +17,17 @@ print(name.isalnum())
 print(number.isnumeric())  # tells the string is numeric or not and gives result in boolean
 print(name.isnumeric())  # tells the string is numeric or not and gives result in boolean
 
+
+'''Slicing String'''
+#  print the First character
 zem = "Hello"[0]
 print(zem)
+
+#  Get the characters from the start to position 5 (not included):
+b = "Hello, World!"
+print(b[:5])
+
+#  Get the characters from position 2, and all the way to the end:
+print(b[2:])
+
+
