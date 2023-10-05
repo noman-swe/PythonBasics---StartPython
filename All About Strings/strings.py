@@ -8,7 +8,9 @@ slicingDeptName = username[5:8]  # it will take index 5 to 7 & will stop taking 
 print("Name of the user : ", slicingUserName)
 print("Department of the user : ", slicingDeptName)
 
-'''case capitalize(), upper(), lower(), islower() and casefold()'''
+'''
+########################################################################################################Starts
+case capitalize(), upper(), lower(), islower() and casefold()'''
 # capitalize() - Converts the first character to upper case
 capitalUser = username.capitalize()
 print(capitalUser)
@@ -35,9 +37,12 @@ upper() - converts all the string to uppercase.
 lower() - converts all the to lowercase.
 casefold() - same as lower case.
 islower() - cheeks the hole string is in lowercase & if it is lowercase then return True Otherwise returns False
+########################################################################################################Ends
 '''
 
-'''endswith() and startswith() '''
+'''
+########################################################################################################Starts
+endswith() and startswith() '''
 # endswith() - Returns true if the string ends with the specified value
 endsWithTest = username.endswith("130")
 print(endsWithTest)
@@ -45,9 +50,13 @@ print(endsWithTest)
 # startswith() - Returns true if the string starts with the specified value otherwise False
 startsWithTest = username.startswith("no")
 print(startsWithTest)
-'''endswith() and startswith() '''
+'''endswith() and startswith() 
+
+########################################################################################################Ends
+'''
 
 '''
+########################################################################################################Starts 
             find(), index() || rfind(), rindex()
             
 find(), index() :- the both method finds the first occurrence of the specified value.
@@ -74,12 +83,16 @@ findLastA = cow.rfind("a", 15, 25)
 print(findLastA)
 '''
 find(), index(), -- both are same; Those method finds the first occurrence of the specified value.
-
 rfind(), rindex() -- both are same; Those method finds the last occurrence of the specified value.
+
+########################################################################################################Ends
 '''
 
 #
-'''isalnum(), isalpha(), isnumeric(), isdigit(), isdecimal(), isspace(), '''
+'''
+#########################################################################################################Starts
+isalnum(), isalpha(), isnumeric(), isdigit(), isdecimal(), isspace(),
+'''
 # isalnum() - The isalnum() method returns True if all the characters are alphanumeric, meaning alphabet letter (a-z) and numbers (0-9).
 print(username.isalnum())
 # returns True, if the string has both alphabet and numeric value in the string, without any space in that string. syntax= string.isalnum()
@@ -110,11 +123,19 @@ isalnum(), isalpha(),
 isnumeric() & isdecimal(),:: isnumeric() and isdecimal() are totally same;;
 isdigit(),  
 isspace(), 
+#########################################################################################################Ends
 '''
 
-'''lstrip(), rstrip() Starts'''
+'''
+#########################################################################################################Starts
+#Removes Whitespace
+strip(), lstrip(), rstrip() '''
 
 txtTestStrips = "     banana     "
+
+# strip() : Removes all the whitespaces from the string
+testStrip = txtTestStrips.strip()
+print("Strip Test:", testStrip)
 
 # lstrip() : Remove spaces to the left of the string
 lstripTest = txtTestStrips.lstrip()
@@ -124,9 +145,14 @@ print("lStrip: Of all fruits", lstripTest, "is my favorite")
 rstripTest = txtTestStrips.rstrip()
 print("rStrip: Of all fruits", rstripTest, "is my favorite")
 
-'''lstrip(), rstrip() End'''
+'''
+lstrip(), rstrip() 
+##########################################################################################################Ends
+'''
 
-'''#Start# split(), rsplit() :: both are same; both gives same output'''
+'''
+#########################################################################################################Starts
+split(), rsplit() :: both are same; both gives same output'''
 # The split() and rsplit() method splits a string into a list. starting from the right.
 # #Syntax :: string.split(separator, maxsplit)
 # #we can specify the separator, default separator is any whitespace.
@@ -137,10 +163,16 @@ print(splitTest)
 
 rsplitTest = splitTxt.rsplit(", ")
 print(rsplitTest)
+'''
+split() ,rsplit()::: both are same.
 
-'''#End# split() ,rsplit()::: both are same.'''
+########################################################################################################Ends
+'''
 
-'''replace()'''
+'''
+########################################################################################################Starts
+replace()
+'''
 # replace() - The replace() method replaces a specified phrase with another specified phrase.
 # syntax :: string.replace(oldvalue, newvalue, count); here old and new value is required and count is optional
 goat = cow.replace("cow", "goat")
@@ -148,6 +180,11 @@ print(goat)
 
 # how much time we want to change that word/alphabet in our string we can declare by the count argument
 horse = cow.replace("cow", "horse", 1)
-print(horse)  # output: The horse is a domestic animal, cow gives us milk. it has a nose;;; because i've set count 1 that's why horse replace cow once and second was cow again..
+print(
+    horse)  # output: The horse is a domestic animal, cow gives us milk. it has a nose;;; because i've set count 1 that's why horse replace cow once and second was cow again.
 
-'''replace()'''
+'''
+replace()
+
+########################################################################################################Ends
+'''
